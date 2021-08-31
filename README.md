@@ -1,4 +1,4 @@
-# devops-challenge-apps
+# Devops Exercises
 This repo contains code for a multi-tier application.
 
 The application overview is as follows
