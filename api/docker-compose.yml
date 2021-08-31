@@ -1,5 +1,5 @@
 api:
-  image: node:latest
+  image: node:12.18.3-alpine3.12
   ports:
     - "5000:5000"
   volumes:
