@@ -14,7 +14,7 @@
 
 ###  NOTE this app uses two env variables:
 
-- PORT: the listening PORT
+- PORT: the listening PORT. Use port 5000 since this is hardcoded in docker-compose.
 - DB: the postgresql url to connect in the form of: postgres://username:password@dbhostname:dbport/database
 
 These two variables need to be set with docker-compose (API_PORT, API_DB).
