@@ -14,7 +14,7 @@
 
 ###  NOTE this app uses two env variables:
 
-- PORT: the listening PORT
-- API_HOST: the full url to call the API app
+- PORT: the listening PORT. With docker-compose, use port 5000 since this is hardcoded in docker-compose
+- API_HOST: the full url to call the API app in the form of: http://API-url:API-Port
 
 These two variables need to be set with docker-compose (WEB_PORT, API_HOST).
