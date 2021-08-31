@@ -9,6 +9,16 @@ web <=> api <=> db
 
 The folders `web` and `api` respectively describe how to install and run each app.
 
+# Required knowledge
+1. **Terraform**:  
+Suggested course: https://www.linkedin.com/learning/learning-terraform-2
+1. **Ansible**:  
+Suggested course: https://www.linkedin.com/learning/ansible-essential-training-2018
+1. **Docker**:  
+Suggested course: https://www.linkedin.com/learning/learning-docker-2018
+1. **Kubernetes**:  
+Suggested course: https://www.linkedin.com/learning/learning-kubernetes
+
 # Exercise 1
 #### Objective
 Create the scripts (Terraform and Ansible) to deploy the multi-tier application with source code hosted here on 2 machines and a managed DB instance.
