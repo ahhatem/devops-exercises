@@ -18,3 +18,8 @@
 - DB: the postgresql url to connect in the form of: postgres://username:password@dbhostname:dbport/database
 
 These two variables need to be set with docker-compose (API_PORT, API_DB).
+
+### Expected result:
+The api should be accessible on the url: 
+http://<api hostname>:<api port>/api/status
+The page should output the date as selected from the DB. This would confirm the call to the API is working and the API connected successfully to the DB.
