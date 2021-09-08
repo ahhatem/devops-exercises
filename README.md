@@ -39,8 +39,7 @@ Create the scripts (Terraform and Kubernets) to deploy the multi-tier applicatio
 1. The web and api tiers must have multiple container instances.
 1. The API needs one database (PostgreSQL) and this service needs be in a container.
 1. The solution should support docker image versioning
-1. The solution should write all the logs to the Rsyslog service (Operating System and containers included)
+1. The solution should write all application logs to a remote Rsyslog service
 1. The solution must handle instance and container failures
 1. The result of running the scripts should be two publicly available tiers: web and api
-    1. Each tier should have either a dedicated subdomain (web.example.com, api.example.com, port 80 or 443 as you choose) or ports (host can be an IP address, with each port number of your choosing).
 1. The script should be able to run against any AWS infrastructure and be able to launch the same tiers with minimal custom configuration or install steps.
