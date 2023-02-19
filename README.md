@@ -13,7 +13,7 @@ The folders `web` and `api` respectively describe how to install and run each ap
 1. **Terraform**:  
 Suggested course: https://www.linkedin.com/learning/learning-terraform-2
 1. **Ansible**:  
-Suggested course: https://www.linkedin.com/learning/ansible-essential-training-2018
+Suggested course: https://www.linkedin.com/learning/ansible-essential-training-14199798
 1. **Docker**:  
 Suggested course: https://www.linkedin.com/learning/learning-docker-2018
 1. **Kubernetes**:  
